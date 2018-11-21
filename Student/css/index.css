@@ -1,0 +1,104 @@
+body {
+    background-image: url("/images/hatterkep.jpg");
+}
+
+#banner{
+    height: 100%;
+    width: 70%;
+    color: burlywood;
+    border: 1px solid blue;
+    margin-left: 15%;
+    background-color: black;
+    font-size: 60pt;
+    text-align: center;
+    padding: auto;
+}
+#menuBar{
+    position: center;
+    font-size: 17px;
+    margin-left: 23%;
+    background: black;
+    margin-top: 30px;
+    border: 1px solid blue;
+    width: 54%;
+}
+.menuButton , .menuButton1 , .menuButton2 , .menuButton3 {
+    position: center;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid grey;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: auto;
+    margin: 15px;
+    color: burlywood;
+    background-color: black;
+
+}
+#stuff {
+    border: 1px solid blue;
+    width: 72%;
+    margin-left: 5%;
+    font-size: 16pt;
+    color: burlywood;
+    background-color: black;
+    margin-top: 30px;
+    height: 400px;
+}
+
+ #TableThings{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: auto;
+}
+#TableThings th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+[type="submit"] {
+    background-color: gold;
+    border:3px solid grey;
+    color: black;
+    height: 25px;
+    font-size: 14pt;
+    font-family: "Tempus Sans ITC";
+}
+#TableThingies {
+    border: 2px solid blue;
+    padding: 8px;
+    font-size: 14pt;
+    background-color: black;
+    width: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+#TableThingies th,td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#insertCarHere tr td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+#cars tr td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+#manufacturers tr td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+#insertCarHere tr:nth-child(even) {
+    background-color: darkviolet;
+}
+#cars tr:nth-child(even) {
+    background-color: darkviolet;
+}
+#manufacturers tr:nth-child(even) {
+    background-color: darkviolet;
+}
+.kicsi{
+    width: 60px;
+}
