@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="TableThings">
+    <form action="/addCar" id="carform" method="post" onsubmit="addCar(event)">
+        <h2>Autó Regisztráció</h2>
+        <table>
+            <tr>
+                <td>Név</td>
+                <td><input type="text" name="name" required="required" placeholder="'Gagyi v1'.." autofocus></td>
+            </tr>
+        <!-- &#32; = space -->
+            <tr>
+                <td>Fogyasztás</td>
+                <td><input class="kicsi" type="number" name="consumption" required="required" value="40">&#32;/100km</td>
+            </tr>
+            <tr>
+                <td>Szín</td>
+                <td><input type="text" name="color" required="required" placeholder="'Ződ'.."></td>
+            </tr>
+            <tr>
+                <td>Gyártó</td>
+                <td><input type="text"  name="manufacturer" required="required" placeholder="'Skoda'.."></td>
+            </tr>
+            <tr>
+                <td>Évjárat</td>
+                <td><input class="kicsi" type="number" name="year" required="required" value="1994"></td>
+            </tr>
+            <tr>
+                <td>Raktáron</td>
+                <td><input class="kicsi" type="number"  name="available" required="required" value="3"></td>
+            </tr>
+            <tr>
+                <td>Lóerő</td>
+                <td><input class="kicsi" type="number"  name="horsepower" required="required" value="120"></td>
+            </tr>
+        </table>
+        <br>
+            <button type="submit" name="submit" class="sendB">Regisztrálás</button>
+    </form>
+</div>
+</html>
